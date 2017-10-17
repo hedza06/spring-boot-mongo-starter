@@ -2,6 +2,7 @@ package com.springbootmongo.starter.domain;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
 
 import java.util.List;
 
@@ -9,7 +10,8 @@ import java.util.List;
 public class User {
 
     @Id
-    private Long id;
+    @Field(value = "_id")
+    private String id;
 
     private String username;
 
@@ -25,12 +27,11 @@ public class User {
 
     private List<Role> roles;
 
-
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
