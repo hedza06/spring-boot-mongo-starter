@@ -3,8 +3,8 @@
 This project is a starter project for Spring Boot Mongo Data. It contains technologies as Spring Boot, MongoDB 
 and Mongobee. It's still in the early phase of development.
 
-The first step on the next phase will be to implement JWT Token Authorization and to secure sensitive routes by setting
-up Spring Security. 
+The first step of development for the next phase will be to implement JWT Token Authorization and to secure sensitive 
+routes by setting up Spring Security. 
 
 ## Running the project
 
