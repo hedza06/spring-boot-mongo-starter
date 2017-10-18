@@ -2,3 +2,12 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost:27017/spring_mongo
+
+jwt:
+    header: Authorization
+    secret: SpringBootMongoDataSecretKey
+    expiration: 300
+    rememberMeExpiration: 300
+    authKey: auth
+
+debug: false
