@@ -1,10 +1,8 @@
 # Spring Boot Starter - Mongo Data
 
-This project is a starter project for Spring Boot Mongo Data. It contains technologies as Spring Boot, MongoDB 
-and Mongobee. It's still in the early phase of development.
-
-The first step of development for the next phase will be to implement JWT Token Authorization and to secure sensitive 
-routes by setting up Spring Security. 
+This is a starter project for Spring Boot Mongo Data. It contains technologies as Spring Boot, MongoDB, Mongobee
+and Spring Security with JWT Token Authorization. Project is still in early phase of development but it's a good
+point to start learning Spring Boot with MongoDB.
 
 ## Running the project
 
@@ -20,11 +18,22 @@ routes by setting up Spring Security.
 - Development profile (dev)
 - Production profile (prod)
 
+## Authorization
+
+Authentication route: **/auth/login**  
+Method: **POST**  
+Content-Type: **application/json**  
+Request body: `{ username: "admin", password: "admin123", rememberMe: true/false }`  
+Response: `{ token: "token_hash" }`  
+
+
 ## Packaging for production
 
-**mvn clean package -Pprod**
+1. **mvn clean**  
+2. **mvn -Pprod package**
 
 ## Contribution
+
 If someone is interesting in contribution please contact me on e-mail ```hedzaprog@gmail.com```. This is not the last
 project so it will be more interesting things to come for Spring Boot especially.
 
