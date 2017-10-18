@@ -37,5 +37,14 @@ Response: `{ token: "token_hash" }`
 If someone is interesting in contribution please contact me on e-mail ```hedzaprog@gmail.com```. This is not the last
 project so it will be more interesting things to come for Spring Boot especially.
 
-<br><br>
-Written by Heril Muratović.
+## Author
+
+Heril Muratović   
+Software Engineer  
+<br>
+**Mobile**: +38269657962  
+**E-mail**: hedzaprog@gmail.com  
+**Skype**: hedza06  
+**Twitter**: hedzakirk  
+**LinkedIn**: https://www.linkedin.com/in/heril-muratovi%C4%87-021097132/  
+**StackOverflow**: https://stackoverflow.com/users/4078505/heril-muratovic
